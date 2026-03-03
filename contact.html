@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — Hime's Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="page-contact">
+  <header class="site-header">
+    <div class="brand">
+      <h1 class="logo">Hime's Page</h1>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html" class="nav-item">home</a>
+      <a href="gallery.html" class="nav-item">gallery</a>
+      <a href="contact.html" class="nav-item active">contact</a>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <section class="card contact-card">
+      <h2>contact</h2>
+      <p>Want to send fan mail or a business inquiry?
+      Please use this form!</p>
+
+      <!-- By default this uses mailto fallback. To use Formspree, replace the action with your formspree endpoint -->
+      <form
+        action="https://formspree.io/f/mykdqnnp
+        method="POST"
+      >
+        <label>
+          Email:
+          <input type="email" name="email">
+        </label> 
+        <label>
+          Message:
+          <textarea type="message"></textarea>
+        </label>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <small>© <span id="year3"></span> Hime's Page.</small>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
